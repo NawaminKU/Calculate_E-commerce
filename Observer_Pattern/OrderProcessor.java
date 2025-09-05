@@ -1,10 +1,12 @@
 package Observer_Pattern;
 
+import Data_Models.Order;
 import java.util.ArrayList;
 import java.util.List;
 
-import Data_Models.Order;
-
+/**
+ * Subject (Puublisher) ที่คอยแจ้งข่าวสาร
+ */
 public class OrderProcessor {
     private final List<OrderObserver> observers = new ArrayList<>();
 
